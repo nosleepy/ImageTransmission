@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "ImageTransmission"
+include ':app_accessory'
+include ':app_host'
+include ':app_sdk'
+include ':app_stb'
+include ':app_usb'
+include ':app_camera'
+include ':app_api'
